@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UPM - Padel</title>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="css/navigationBar.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row navigationBar">
+        <div class="col-md-12">
+            <div id="logoContainer">
+                <a href="https://www.upm.es">
+                    <img id="logo" alt="ETSISI Icon" src="img/etsisi.png" class="img-rounded smallRightMargin"/>
+                </a>
+                <span id="logoTitle">Padel UPM</span>
+            </div>
+            <ul class="nav nav-pills">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Servicios</a>
+                </li>
+                <li>
+                    <a href="instalaciones.html">Instalaciones</a>
+                </li>
+                <li>
+                    <a href="reservar.html">Reservar</a>
+                </li>
+                <li class="pull-right">
+                    <a href="#"><span class="glyphicon glyphicon-log-in smallRightMargin"></span>Login</a>
+                </li>
+                <li class="pull-right">
+                    <a href="registro.html"><span class="glyphicon glyphicon-user smallRightMargin"></span>Registro</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6 formContainer">
+            <fieldset class="formBorder">
+                <legend class="formLegend">Acceso: usuario o correo electr&oacute;nico</legend>
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="username" class="col-sm-2 control-label">
+                            Usuario:
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="username"
+                                   placeholder="Identificador de usuario" required/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">
+                            Correo:
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label">
+                            Clave:
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="password" placeholder="Clave" required/>
+                        </div>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-default">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div>
+</div>
+</body>
+</html>
